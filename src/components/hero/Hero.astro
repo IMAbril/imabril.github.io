@@ -1,0 +1,27 @@
+---
+import './hero.css';
+import Boton from '../atoms/Boton.astro';
+---
+
+<section class="hero">
+
+	<div class="hero__container">
+		<div class="text__content">
+			<p class="hero__text">
+				Hi! I'm
+			</p>
+			<h1 class="hero__title color__gradiente">Abril Magali Ibarra</h1>
+			<p class="hero__text">
+				 I love using data to uncover insights and I’m eager to bring my skills to a team where I can learn, grow, and make an impact!
+			</p>
+			<Boton href="#" texto="Let's get in touch!"/>
+		</div>
+    <img
+		class="hero__img"
+		src="/img/wavingcapybara.webp"
+		alt="Capybara waving"
+		width="384"
+    	height="384"
+	/>
+	</div>
+</section>

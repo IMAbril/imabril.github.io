@@ -1,0 +1,26 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="./img/logo.webp"
+			alt="IMAbril logo"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="About me" />
+			<p class="about__text">
+			I am an enthusiastic undergraduate student pursuing dual degrees in Data Science and Computer Science at the Universidad de Buenos Aires. I am deeply passionate about the intersection of mathematics, computation, and data, especially in the fields of continuous modeling and robotics. I am actively building a strong scientific profile, grounded in linear algebra, calculus, algorithms, and data structures, which I am eager to apply to real-world projects. 
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
