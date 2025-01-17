@@ -9,5 +9,6 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
-  integrations: [react(), tailwind(), sitemap()]
+  integrations: [react(), tailwind(), sitemap()],
+  base: '/imabril.github.io/'
 });
