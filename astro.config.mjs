@@ -10,5 +10,5 @@ export default defineConfig({
     enabled: false
   },
   integrations: [react(), tailwind(), sitemap()],
-  base: '/imabril.github.io/'
+  site: 'https://imabril.github.io/', // URL completa de tu página
 });
