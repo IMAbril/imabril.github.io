@@ -1,16 +1,15 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
 
-import sitemap from "@astrojs/sitemap";
-
-// https://astro.build/config
 export default defineConfig({
-  base: '',
   site: 'https://imabril.github.io', 
+  base: '/imabril.github.io/', 
+  output: 'static', 
   devToolbar: {
-    enabled: true
+    enabled: true,
   },
   integrations: [react(), tailwind(), sitemap()],
-  
 });
+
