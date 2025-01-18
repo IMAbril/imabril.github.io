@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "astro build && npx gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux/issues"
   },
-  "homepage": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme"
+  "homepage": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
