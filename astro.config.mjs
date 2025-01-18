@@ -6,10 +6,11 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/imabril.github.io/',
+  site: 'https://imabril.github.io', 
   devToolbar: {
-    enabled: false
+    enabled: true
   },
   integrations: [react(), tailwind(), sitemap()],
-  base: '/imabril.github.io/', 
-  site: 'https://imabril.github.io/imabril.github.io/', 
+  
 });
